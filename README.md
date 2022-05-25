@@ -1,3 +1,3 @@
 # Kakao Clone 2022
 
-CSS got so much better!
+HTML & CSS are got so much fun
