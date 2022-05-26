@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 - 쿠쿠오</title>
+  </head>
+  <body>
+    <!-- 상태바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- To Do: Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <!-- To Do: 배터리 Icon -->
+        <i class="fas fa-battery-half fa-lg"></i>
+        <!-- To Do: 충전중 Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <div class="status-bar__message">통화로 돌아가려면 터치하기 00:31</div>
+
+    <!-- 헤더 -->
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">가입을 시작합니다!</h1>
+      <p class="welcome-header__text">코코오계정 하나로<br />다양한 서비스를 편리하게 이용해 보세요!</p>
+    </header>
+
+    <!-- Form -->
+    <form action="friends.html" method="GET" id="login-form">
+      <input name="username" type="text" placeholder="이메일 또는 전화번호" />
+      <input name="password" type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <a href="#">계정 또는 비밀번호 찾기</a>
+    </form>
+
+    <div id="splash-screen"><i class="fas fa-comment fa-7x"></i></div>
+    <div class="no-mobile">화면 사이즈를 작게 조절 해주세요</div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>

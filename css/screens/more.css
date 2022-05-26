@@ -1,0 +1,35 @@
+.more-component {
+  padding: 0 25px;
+}
+
+.more-component__column {
+  padding: 25px 0;
+}
+.more-component__column:last-child {
+  border-top: var(--main-border);
+}
+
+.more-component__menus {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-component__menus-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 20px 0px;
+  opacity: 0.92;
+}
+
+.more-component__menus-menu span {
+  padding: 5px 0px;
+}
+
+.more-component__title {
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 0.9;
+}

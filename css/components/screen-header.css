@@ -1,0 +1,37 @@
+.screen-header {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--horizontal-spae);
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__setting {
+  padding-left: 0;
+}
+
+@keyframes headerIconHover {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons i.fa-cog:hover {
+  animation: headerIconHover 1s ease-in-out infinite;
+}
